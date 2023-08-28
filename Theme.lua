@@ -13,7 +13,7 @@ local ThemeManager = {} do
 		['Tokyo Night'] 	= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
 		['Quartz'] 			= { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') },
-		['Mystic Ocean'] = { 9, httpService:JSONDecode('{"FontColor":"b0c4de","MainColor":"2f4f4f","AccentColor":"add8e6","BackgroundColor":"5f9ea0","OutlineColor":"87ceeb"}') }
+		['Github'] = { 9, httpService:JSONDecode('{"FontColor":"e6e6e6","MainColor":"1c2331","AccentColor":"4285f4","BackgroundColor":"212121","OutlineColor":"616161"}') }
 	}
 
 	function ThemeManager:ApplyTheme(theme)
